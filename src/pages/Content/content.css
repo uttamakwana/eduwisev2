@@ -1,0 +1,133 @@
+.filter h1 {
+  margin-top: 3rem;
+  text-align: center;
+  color: #2f327d;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  font-size: 2rem;
+}
+
+.filter-list {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.filter-list-group {
+  width: 25%;
+}
+
+.filter-list-group select {
+  padding: 0.75rem 0.5rem;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  outline: none;
+  border: none;
+}
+
+.filter-list-group select {
+  display: block;
+  width: 100%;
+  padding: 1rem 0.7rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* padding: 2rem; */
+  border-radius: 5px;
+}
+
+.filter-list-group::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 25px;
+  background: var(--thirty-pr-color);
+  color: var(--sixty-pr-color);
+  padding: 11px 15px;
+  pointer-events: none;
+  border-radius: 5px;
+}
+.filter-list-group {
+  position: relative;
+}
+
+.subject-container {
+  padding: 1rem 0.75rem;
+  margin-top: 2rem;
+}
+
+.container {
+  display: flex;
+  padding: 0 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: ease-in 0.5s;
+  font-family: "Source Sans Pro", sans-serif;
+  max-width: 250px;
+  justify-content: space-between;
+}
+
+.card strong {
+  font-weight: 700;
+}
+
+.card:hover {
+  cursor: pointer;
+  scale: 1.035;
+}
+
+.card.no-subject {
+  transition: all ease 0.2s;
+}
+
+.card.no-subject:hover {
+  scale: 1;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 54px 55px,
+    rgba(0, 0, 0, 0.09) 0px -12px 30px, rgba(0, 0, 0, 0.09) 0px 4px 6px,
+    rgba(0, 0, 0, 0.09) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card img {
+  height: 200px;
+  object-fit: conver;
+  width: 200px;
+  max-width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  padding: 0.5rem;
+  border-radius: 15px;
+}
+
+.card button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: var(--ten-pr-color);
+  color: var(--sixty-pr-color);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#back-btn {
+  position: fixed;
+  bottom: 5%;
+  left: 5%;
+}
