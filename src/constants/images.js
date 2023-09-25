@@ -18,6 +18,9 @@ import IT from "../images/IT.png";
 import CE from "../images/CE.png";
 import EC from "../images/EC.png";
 import ME from "../images/ME.png";
+import MI from "../images/MI.png";
+import AJ from "../images/AJ.png";
+import DM from "../images/DM.png";
 
 export default {
   google,
@@ -25,6 +28,9 @@ export default {
   laptopnews,
   kid,
   boy,
+  MI,
+  AJ,
+  DM,
   ADA,
   AWP,
   OOP,
