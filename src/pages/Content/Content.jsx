@@ -199,8 +199,8 @@ const Content = ({ setSelectedCard }) => {
             })
           ) : (
             <div className="card no-subject">
-              <strong style={{ color: "purple" }}>
-                Sorry no subjects found!
+              <strong style={{ color: "var(--thirty-pr-color)" }}>
+                Coming Soon...🙂
               </strong>
             </div>
           )}
