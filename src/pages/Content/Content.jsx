@@ -33,6 +33,27 @@ const Content = ({ setSelectedCard }) => {
       semester: "6",
     },
     {
+      img: images.AJ,
+      title: "Advanced Java",
+      code: "2160708",
+      department: "Computer Engineering",
+      semester: "6",
+    },
+    {
+      img: images.MI,
+      title: "Microprocessor and Interfacing",
+      code: "2160708",
+      department: "Computer Engineering",
+      semester: "6",
+    },
+    {
+      img: images.DM,
+      title: "Data Mining",
+      code: "2160708",
+      department: "Computer Engineering",
+      semester: "6",
+    },
+    {
       img: images.TOC,
       title: "Theory of Computation",
       code: "2160704",
